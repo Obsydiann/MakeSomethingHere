@@ -1,0 +1,26 @@
+From b8f86dfb23f80d500343cec5c5731a7db44a9eb7 Mon Sep 17 00:00:00 2001
+From: SemkiShow <mgdeveloper123@gmail.com>
+Date: Wed, 26 Aug 2026 19:14:56 +0200
+Subject: [PATCH] Add Hello, World
+
+---
+ main.c | 7 +++++++
+ 1 file changed, 7 insertions(+)
+ create mode 100644 main.c
+
+diff --git a/main.c b/main.c
+new file mode 100644
+index 0000000..7d38eaf
+--- /dev/null
++++ b/main.c
+@@ -0,0 +1,7 @@
++#include <stdio.h>
++
++int main()
++{
++    printf("Hello, World!\n");
++    return 0;
++}
+-- 
+2.47.3
+
